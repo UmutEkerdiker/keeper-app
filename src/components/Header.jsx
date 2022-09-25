@@ -1,12 +1,16 @@
 import React from "react";
+import EventNoteIcon from "@mui/icons-material/EventNote";
 
 //render header
 function Header() {
-    return(
-        <header>
-        <h1>Keeper</h1>
-        </header>
-);
+  return (
+    <header>
+      <h1>
+        <EventNoteIcon />
+        Keeper
+      </h1>
+    </header>
+  );
 }
 
 export default Header;
